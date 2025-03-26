@@ -1,0 +1,12 @@
+Para criarmos o ambiente de desenvolvimento python (venv), utilizamos o cmd (comand prompt).
+
+- Criando a venv
+    python -m venv venv (o segundo venv é o nome do ambiente virtual)
+
+- Ativando a venv
+    venv\scripts\activate
+    
+    - Agora haverá um (venv) ao lado do endereço de onde o seu prompt está sendo executado.
+
+- Utilizando um código com venv
+    python helloworld.py
