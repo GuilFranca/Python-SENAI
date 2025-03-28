@@ -1,0 +1,30 @@
+Para criarmos o ambiente de desenvolvimento python (venv), utilizamos o cmd (comand prompt).
+
+- Criando a venv
+    python -m venv venv (o segundo venv é o nome do ambiente virtual)
+
+- Ativando a venv
+    venv\Scripts\activate
+    
+    - Agora haverá um (venv) ao lado do endereço de onde o seu prompt está sendo executado.
+
+- Utilizando um código com venv
+    python helloworld.py
+
+- instalando django
+    pip install django==4.1
+
+- Atualizando o pip
+    python.exe -m pip install --upgrade pip
+
+- Criando o request
+    pip freeze> requirements.txt
+
+- Criando projeto
+    django-admin startproject setup . 
+
+- Comando de migração
+    python manage.py migrate
+
+- Comando para subir pro servidor
+    python manage.py runserver
