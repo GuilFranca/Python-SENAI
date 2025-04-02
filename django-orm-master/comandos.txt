@@ -1,0 +1,23 @@
+Inicializando venv
+
+-> python -m venv venv
+
+Ativando a venv
+
+-> source venv/Script/activate
+
+Atualizar o pip install
+
+-> python.exe -m install --upgrade pip
+
+Para instalar os requirements do projeto
+
+->  pip install -r requirements.txt
+
+instalar dotenv (pedencia do django)
+
+-> pip install dotenv
+
+Ativar a o django server:
+
+-> python manage.py runserver 
